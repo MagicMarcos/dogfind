@@ -14,11 +14,11 @@ app.get('/posts', (req, res) => {
 	res.render('post.ejs');
 });
 app.get('/login', (req, res) => {
-	res.render('post.ejs');
-});
-app.get('/signup', (req, res) => {
-	res.render('post.ejs');
+	res.render('login.ejs');
 });
 app.get('/profile', (req, res) => {
-	res.render('post.ejs');
+	res.render('profile.ejs');
+});
+app.get('/signup', (req, res) => {
+	res.render('signup.ejs');
 });

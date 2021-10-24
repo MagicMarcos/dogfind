@@ -4,8 +4,8 @@
 		<meta charset="utf-8" />
 		<meta name="description" content="Your description goes here" />
 		<meta name="keywords" content="one, two, three" />
-
-		<title>Blank Template</title>
+		<link rel="icon" type="image/png" href="img/icon.png" />
+		<title>Artemy</title>
 
 		<!-- external CSS link -->
 		<link
@@ -18,57 +18,66 @@
 	<body>
 		<div class="bodyCont">
 			<header>
-				<h1>WHERE THE FUCK IS MY DOG?!</h1>
+				<a href="/"
+					><h1><img src="img/smallLogo.png" alt="Logo" class="logo" /></h1
+				></a>
 				<nav>
-					<a href="#"><i class="fas fa-user"></i></a>
-					<a href="#">LOG OUT</a>
+					<a href="/login">Log In</a>
+					<a href="/signup">Sign Up</a>
+					<a href="profile"><i class="fas fa-user"></i></a>
+					<a href="/">LOG OUT</a>
 				</nav>
 			</header>
 			<main>
-				<li class="lostPet">
-					<!-- clicking will send to individual post, with more information -->
-					<div class="petImgCont">
-						<a href="#"
-							><img class="petImg" src="/img/dog3.png" alt="PetPhoto"
-						/></a>
-					</div>
-					<section class="petInfo">
-						<a href="#"><h2>PetName</h2></a>
-						<h3>Last Seen: 10/10/1975</h3>
-						<h3>Description</h3>
-						<p>just a cool ass dog, find his ass bro.</p>
-						<h3>Last seen</h3>
-						<p>your moms house</p>
-					</section>
-				</li>
-				<li class="lostPet">
-					<!-- clicking will send to individual post, with more information -->
-					<div class="petImgCont">
-						<a href="#"
-							><img class="petImg" src="img/dog1.png" alt="PetPhoto"
-						/></a>
-					</div>
-					<section class="petInfo">
-						<a href="#"><h2>PetName</h2></a>
-						<h3>Lost On (DATE)</h3>
-						<h3>Description</h3>
-						<h3>Last seen</h3>
-					</section>
-				</li>
-				<li class="lostPet">
-					<!-- clicking will send to individual post, with more information -->
-					<div class="petImgCont">
-						<a href="#"
-							><img class="petImg" src="img/dog2.png" alt="PetPhoto"
-						/></a>
-					</div>
-					<section class="petInfo">
-						<a href="#"><h2>PetName</h2></a>
-						<h3>Lost On (DATE)</h3>
-						<h3>Description</h3>
-						<h3>Last seen</h3>
-					</section>
-				</li>
+				<div class="listCont">
+					<li class="lostPet">
+						<!-- clicking will send to individual post, with more information -->
+						<div class="petImgCont">
+							<a href="posts"
+								><img class="petImg" src="/img/dog3.png" alt="PetPhoto"
+							/></a>
+						</div>
+						<section class="petInfo">
+							<a href="posts"><h2>PetName</h2></a>
+							<h3>Last Seen: 10/10/1975</h3>
+							<h3>Description</h3>
+							<p>just a cool ass dog, find his ass bro.</p>
+							<h3>Last seen</h3>
+							<p>your moms house</p>
+						</section>
+					</li>
+					<li class="lostPet">
+						<!-- clicking will send to individual post, with more information -->
+						<div class="petImgCont">
+							<a href="#"
+								><img class="petImg" src="img/dog1.png" alt="PetPhoto"
+							/></a>
+						</div>
+						<section class="petInfo">
+							<a href="#"><h2>PetName</h2></a>
+							<h3>Lost On (DATE)</h3>
+							<h3>Description</h3>
+							<h3>Last seen</h3>
+						</section>
+					</li>
+					<li class="lostPet">
+						<!-- clicking will send to individual post, with more information -->
+						<div class="petImgCont">
+							<a href="posts"
+								><img class="petImg" src="img/dog2.png" alt="PetPhoto"
+							/></a>
+						</div>
+						<section class="petInfo">
+							<a href="#"><h2>PetName</h2></a>
+							<h3>Lost On (DATE)</h3>
+							<h3>Description</h3>
+							<h3>Last seen</h3>
+						</section>
+					</li>
+				</div>
+				<aside class="tips">
+					<h2>Tips for Finding Lost Pet</h2>
+				</aside>
 			</main>
 			<footer>
 				<div class="myLinks">

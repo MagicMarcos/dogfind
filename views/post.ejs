@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<link rel="icon" type="image/png" href="img/icon.png" />
+		<title>Artemy</title>
 		<link
 			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
 			rel="stylesheet"
@@ -13,6 +14,55 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<h2>hello</h2>
+		<div class="bodyCont">
+			<header>
+				<a href="/"
+					><h1><img src="img/smallLogo.png" alt="Logo" class="logo" /></h1
+				></a>
+				<nav>
+					<a href="profile"><i class="fas fa-user"></i></a>
+					<a href="/">LOG OUT</a>
+				</nav>
+			</header>
+			<main>
+				<div class="listCont">
+					<ul>
+						<li class="lostPet">
+							<!-- clicking will send to individual post, with more information -->
+							<div class="petImgCont">
+								<a href="posts"
+									><img class="petImg" src="/img/dog3.png" alt="PetPhoto"
+								/></a>
+							</div>
+							<section class="petInfo">
+								<a href="posts"><h2>PetName</h2></a>
+								<h3>Last Seen: 10/10/1975</h3>
+								<h3>Description</h3>
+								<p>just a cool ass dog, find his ass bro.</p>
+								<h3>Last seen</h3>
+								<p>your moms house</p>
+							</section>
+						</li>
+					</ul>
+				</div>
+				<aside class="tips">
+					<h2>Tips for Finding Lost Pet</h2>
+				</aside>
+			</main>
+			<footer>
+				<div class="myLinks">
+					<a href="https://github.com/MagicMarcos"
+						><i class="fab fa-github"></i
+					></a>
+					<a href="https://marcoscardoso.netlify.app/"
+						><i class="fas fa-laptop-code"></i
+					></a>
+					<a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/feed/"
+						><i class="fab fa-linkedin-in"></i
+					></a>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
